@@ -46,8 +46,6 @@ cd Furniture-Finder
 
 # 2. Install dependencies
 npm install
-# or
-yarn install
 
 # 3. Install Expo dependencies
 npx expo install
