@@ -61,7 +61,9 @@ npx expo install
 npx expo start
 
 ```
-###or
+
+##or
+
 ```bash
 
 npx expo  start --clear
