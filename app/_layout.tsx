@@ -50,7 +50,7 @@ export default function RootLayout() {
               onPress={() => router.push('/profile')}
   style={{
       marginRight: 15,
-      marginTop: -15, // 🔼 push it up slightly (tweak as needed)
+      marginTop: -15, 
     }}
             >
               <Ionicons name="person-circle-outline" size={25} color="#000" />
@@ -65,7 +65,7 @@ export default function RootLayout() {
         options={{
           headerBackVisible: false,
           headerTitle: '',
-          gestureEnabled: false, // optional: prevent swipe back gesture
+          gestureEnabled: false, 
         }}
       />
 
