@@ -74,3 +74,14 @@ This error often appears when Expo Go fails to connect to the Metro bundler afte
 
 The Metro bundler provides the JavaScript bundle over a temporary local or tunnel-based URL. When the server is restarted, this URL often changes or becomes inactive. However, Expo Go may continue trying to connect using the previous cached URL, which no longer points to an active server.
 
+## ✅ How to Fix It:
+
+- Make sure your phone and computer are on the same Wi-Fi network,
+or use your phone’s personal hotspot and connect your computer to it.
+- Restart both your phone and your machine (optional but helps reset connections). 
+- Restart the Expo server using
+
+```bash
+npx expo start --clear
+```
+- Re-scan the new QR code using Expo Go to ensure it connects to the new bundler URL.
