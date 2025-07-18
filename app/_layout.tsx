@@ -48,9 +48,12 @@ export default function RootLayout() {
           headerRight: () => (
             <TouchableOpacity
               onPress={() => router.push('/profile')}
-              style={{ marginRight: 15 }}
+  style={{
+      marginRight: 15,
+      marginTop: -15, // 🔼 push it up slightly (tweak as needed)
+    }}
             >
-              <Ionicons name="person-circle-outline" size={28} color="#000" />
+              <Ionicons name="person-circle-outline" size={25} color="#000" />
             </TouchableOpacity>
           ),
         }}
