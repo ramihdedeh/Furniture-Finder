@@ -52,7 +52,7 @@ yarn install
 
 # 3. Install Expo dependencies
 npx expo install
-
+```
 ## ▶️ Running the App
 
 ### Start the development server
