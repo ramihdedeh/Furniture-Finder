@@ -42,7 +42,7 @@ Ensure the following tools are installed:
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/YOUR_USERNAME/Furniture-Finder.git
+git clone https://github.com/ramihdedeh/Furniture-Finder.git
 cd Furniture-Finder
 
 # 2. Install dependencies
@@ -60,3 +60,8 @@ npx expo install
 ```bash
 npx expo start
 
+```
+###or
+```bash
+
+npx expo  start --clear
