@@ -10,7 +10,7 @@ import {
   View
 } from 'react-native';
 
-// ✅ Define the product type
+
 type Product = {
   id: number;
   title: string;
@@ -102,9 +102,6 @@ export default function HomeScreen() {
       <Text className="text-base text-gray-600 mb-4 px-1">
         Discover furniture tailored to your style
       </Text>
-
-
-
 
 
       <FlatList
