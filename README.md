@@ -64,3 +64,13 @@ or
 ```bash
 
 npx expo  start --clear
+```
+
+## ⚠️ Common Issue: Error: The system cannot find the path specified.
+
+This error often appears when Expo Go fails to connect to the Metro bundler after restarting the development server.
+
+## 💡 Why it happens:
+
+The Metro bundler provides the JavaScript bundle over a temporary local or tunnel-based URL. When the server is restarted, this URL often changes or becomes inactive. However, Expo Go may continue trying to connect using the previous cached URL, which no longer points to an active server.
+
