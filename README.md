@@ -31,11 +31,11 @@ A mobile app to browse, view, and manage furniture items. Built with **React Nat
 Ensure the following tools are installed:
 
 - [Node.js](https://nodejs.org/) (v18 or higher)
-- npm or [yarn](https://yarnpkg.com/)
+- npm 
 - [Expo CLI](https://docs.expo.dev/get-started/installation/)
 - [Git](https://git-scm.com/)
 - (Optional) Android Studio / Xcode for emulators
-
+-Expo Go app on your phone 
 ---
 
 ## 🛠️ Installation
