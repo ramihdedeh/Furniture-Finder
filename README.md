@@ -1,50 +1,54 @@
-# Welcome to your Expo app 👋
+# 🪑 Furniture-Finder
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+A mobile app to browse, view, and manage furniture items. Built with **React Native + Expo**, styled using **Tailwind CSS**, and supports features like login, camera-based profile photo, product browsing, and logout.
 
-## Get started
+---
 
-1. Install dependencies
+## 🚀 Features
 
-   ```bash
-   npm install
-   ```
+- 📸 Capture and upload profile photo using device camera  
+- 🔐 Secure login and logout functionality  
+- 🛋️ Browse furniture items by category  
+- 🧾 View product details with images and descriptions  
+- ⚙️ Expo Router for smooth navigation  
+- 💾 Persistent session with AsyncStorage  
 
-2. Start the app
+---
 
-   ```bash
-   npx expo start
-   ```
+## 📦 Tech Stack
 
-In the output, you'll find options to open the app in a
+- [React Native](https://reactnative.dev/)
+- [Expo](https://expo.dev/)
+- [Expo Router](https://expo.dev/router)
+- [Tailwind CSS via nativewind](https://www.nativewind.dev/)
+- [AsyncStorage](https://react-native-async-storage.github.io/async-storage/)
+- [React Navigation](https://reactnavigation.org/)
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+---
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+## 📲 Prerequisites
 
-## Get a fresh project
+Ensure the following tools are installed:
 
-When you're ready, run:
+- [Node.js](https://nodejs.org/) (v18 or higher)
+- npm or [yarn](https://yarnpkg.com/)
+- [Expo CLI](https://docs.expo.dev/get-started/installation/)
+- [Git](https://git-scm.com/)
+- (Optional) Android Studio / Xcode for emulators
+
+---
+
+## 🛠️ Installation
 
 ```bash
-npm run reset-project
-```
+# 1. Clone the repository
+git clone https://github.com/YOUR_USERNAME/Furniture-Finder.git
+cd Furniture-Finder
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+# 2. Install dependencies
+npm install
+# or
+yarn install
 
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+# 3. Install Expo dependencies
+npx expo install
