@@ -62,7 +62,7 @@ npx expo start
 
 ```
 
-##or
+or
 
 ```bash
 
