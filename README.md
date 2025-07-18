@@ -34,8 +34,7 @@ Ensure the following tools are installed:
 - npm 
 - [Expo CLI](https://docs.expo.dev/get-started/installation/)
 - [Git](https://git-scm.com/)
-- (Optional) Android Studio / Xcode for emulators
--Expo Go app on your phone 
+- Expo Go app on your phone 
 ---
 
 ## 🛠️ Installation
