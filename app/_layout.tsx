@@ -44,14 +44,14 @@ export default function RootLayout() {
         options={{
           headerBackVisible: false,
           headerTitle: 'Furniture Finder',
-    headerTitleStyle: { fontWeight: 'bold', fontSize: 18 },
+          headerTitleStyle: { fontWeight: 'bold', fontSize: 18 },
           headerRight: () => (
             <TouchableOpacity
               onPress={() => router.push('/profile')}
-  style={{
-      marginRight: 15,
-      marginTop: -15, 
-    }}
+            style={{
+                marginRight: 15,
+                marginTop: -15, 
+              }}
             >
               <Ionicons name="person-circle-outline" size={25} color="#000" />
             </TouchableOpacity>
